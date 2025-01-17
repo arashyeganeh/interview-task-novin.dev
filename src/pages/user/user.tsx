@@ -31,7 +31,7 @@ function UserPage() {
                     <span>نام:</span> {data.first_name}
                 </li>
                 <li>
-                    <span>نام خانوادگی:</span> {data.first_name}
+                    <span>نام خانوادگی:</span> {data.last_name}
                 </li>
                 <li>
                     <span>ایمیل:</span> {data.email}
