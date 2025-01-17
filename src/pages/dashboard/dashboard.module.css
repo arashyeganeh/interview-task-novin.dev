@@ -1,0 +1,50 @@
+.table {
+  @apply w-[50vw] divide-y divide-gray-200;
+
+  thead {
+    @apply text-sm bg-gray-100;
+  }
+
+  tbody {
+    @apply divide-y divide-gray-200;
+    tr {
+      @apply divide-x divide-x-reverse;
+    }
+  }
+
+  th,
+  td {
+    @apply text-center whitespace-nowrap p-1;
+  }
+
+  td {
+    @apply text-sm;
+  }
+
+  a {
+    @apply inline-flex flex flex-row space-x-1 space-x-reverse p-1 text-white bg-primary-500 hover:bg-primary-600 duration-300 rounded-md overflow-hidden;
+  }
+
+  svg {
+    @apply w-4 h-4;
+  }
+
+  img {
+    @apply inline-block w-20 h-20 object-cover rounded-md;
+  }
+}
+
+.pagination {
+  @apply flex flex-row justify-center items-center max-w-fit space-x-1 space-x-reverse mx-auto;
+
+  a {
+    @apply inline-flex justify-center items-center duration-300 w-8 h-8 rounded-md overflow-hidden;
+    @apply bg-gray-300 hover:bg-gray-400;
+
+    &.currentPage {
+      @apply bg-primary-300 hover:bg-primary-400;
+    }
+  }
+}
+
+

@@ -1,0 +1,12 @@
+.bgColorful {
+  background: #9053c7;
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+
+  button[type="submit"] {
+    @apply block w-40 mx-auto;
+  }
+}
+
+.error {
+  @apply text-sm text-red-600 bg-red-100 rounded-md p-1;
+}

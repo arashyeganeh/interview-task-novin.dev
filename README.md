@@ -21,11 +21,16 @@ The task involves creating a React application that allows users to perform auth
    - Authenticated users can fetch and view a paginated list of users via `/api/users?page=?`.
 3. **User Details:**
    - Authenticated users can view detailed information about a specific user.
-4. **User Management:**
-   - Authenticated users can perform CRUD (Create, Read, Update, Delete) operations on user data.
 5. **Logout:**
    - Authenticated users can log out of the system.
 
 ## API Reference
+
 The task relies on the [Reqres API](https://reqres.in/).
 
+## Screenshots
+
+![login](/screenshots/login.JPG)
+![dashboard](screenshots/dashboard.JPG)
+![user](/screenshots/user.JPG)
+![noftound](/screenshots/noftound.JPG)

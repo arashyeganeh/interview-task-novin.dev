@@ -1,0 +1,11 @@
+.avatar {
+  @apply w-32 h-32 object-cover border shadow-md rounded;
+}
+
+.info span {
+  @apply font-bold;
+}
+
+.returnBtn {
+  @apply block text-white text-center bg-primary-500 hover:bg-primary-600 duration-300 rounded-md p-2;
+}
