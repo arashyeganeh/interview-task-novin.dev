@@ -1,5 +1,5 @@
 .avatar {
-  @apply w-32 h-32 object-cover border shadow-md rounded;
+  @apply w-32 h-32 object-cover border shadow-md rounded-lg;
 }
 
 .info span {
